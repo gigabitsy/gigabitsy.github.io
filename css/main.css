@@ -65,7 +65,7 @@ h4, h5, h6 {
 }
 /* /something color  */
 span.color {
-	color: #f2c453;
+	color: #1a4a5e;
 }
 
 body > section,
@@ -141,7 +141,7 @@ body > section,
 ==========================================*/
 
 #navigation {
-  background-color: #f2c453;
+  background-color: #1a4a5e;
   border: 0 none;
   margin: 0;
   
@@ -476,7 +476,7 @@ top: -8px;
 }
 
 .team-member:hover h4 {
-  color: #f2c453;
+  color: #1a4a5e;
 }
 
 .team-member .social-links {
@@ -484,7 +484,7 @@ top: -8px;
 }
 
 .team-member .social-links li a {
-  background-color: #f2c453;
+  background-color: #1a4a5e;
   color: #fff;
   height: 42px;
   padding: 10px 0 0;

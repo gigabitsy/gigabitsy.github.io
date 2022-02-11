@@ -41,7 +41,7 @@ a, a:focus, a:hover {
 }
 
 a:focus, a:hover {
-    color: #6CB670;
+    color: #f4d58a;
 }
 
 h1, h2, h3,
@@ -65,7 +65,7 @@ h4, h5, h6 {
 }
 
 span.color {
-	color: #f2c453;
+	color: #1a4a5e;
 }
 
 body > section,
@@ -76,7 +76,7 @@ body > section,
 .sec-title {}
 
 .sec-title h2 {
-  color: #f2c453;
+  color: #1a4a5e;
   font-size: 28px;
   font-weight: 800;
   text-transform: uppercase;
@@ -90,7 +90,7 @@ body > section,
 	font-weight: 600;
 	line-height: 24px;
 	font-size: 18px;
-	color: #1a4a5e;
+	color: #f4d58a;
 }
 
 .devider {
@@ -349,7 +349,7 @@ top: -8px;
 
 .work-filter ul li a:hover,
 .work-filter ul li a.active {
-  background-color: #f2c453;
+  background-color: #1a4a5e;
   border-radius: 6px;
   color: #fff;
   padding: 5px 17px;
@@ -372,7 +372,7 @@ top: -8px;
 }
 
 .overlay {
-	background-color: #f2c453;
+	background-color: #1a4a5e;
 	text-align: center;
 	position: absolute;
 	left: 0;
@@ -476,7 +476,7 @@ top: -8px;
 }
 
 .team-member:hover h4 {
-  color: #f2c453;
+  color: #1a4a5e;
 }
 
 .team-member .social-links {
@@ -484,7 +484,7 @@ top: -8px;
 }
 
 .team-member .social-links li a {
-  background-color: #f2c453;
+  background-color: #1a4a5e;
   color: #fff;
   height: 42px;
   padding: 10px 0 0;

@@ -168,7 +168,7 @@ body > section,
 .navbar-nav li a:focus,
 .navbar-nav li a:hover {
 	background-color: transparent;
-	border-top: 1px solid #f6e7c1;
+	border-top: 1px solid #1a4a5e;
 	color: #fff;
 }
 

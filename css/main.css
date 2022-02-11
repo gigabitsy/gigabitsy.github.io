@@ -63,9 +63,9 @@ h4, h5, h6 {
 .clear {
    *zoom: 1;
 }
-
+/* /something color  */
 span.color {
-	color: #1a4a5e;
+	color: #f2c453;
 }
 
 body > section,
@@ -141,7 +141,7 @@ body > section,
 ==========================================*/
 
 #navigation {
-  background-color: rgba(16, 22, 54, 0.2);
+  background-color: #1a4a5e;
   border: 0 none;
   margin: 0;
   

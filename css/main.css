@@ -65,7 +65,7 @@ h4, h5, h6 {
 }
 /* /something color  */
 span.color {
-	color: #1a4a5e;
+	color: #f2c453;
 }
 
 body > section,
@@ -141,7 +141,7 @@ body > section,
 ==========================================*/
 
 #navigation {
-  background-color: #1a4a5e;
+  background-color: #f2c453;
   border: 0 none;
   margin: 0;
   
@@ -349,7 +349,7 @@ top: -8px;
 
 .work-filter ul li a:hover,
 .work-filter ul li a.active {
-  background-color: #1a4a5e;
+  background-color: #f2c453;
   border-radius: 6px;
   color: #fff;
   padding: 5px 17px;
@@ -372,7 +372,7 @@ top: -8px;
 }
 
 .overlay {
-	background-color: #1a4a5e;
+	background-color: #f2c453;
 	text-align: center;
 	position: absolute;
 	left: 0;
@@ -476,7 +476,7 @@ top: -8px;
 }
 
 .team-member:hover h4 {
-  color: #1a4a5e;
+  color: #f2c453;
 }
 
 .team-member .social-links {
@@ -484,7 +484,7 @@ top: -8px;
 }
 
 .team-member .social-links li a {
-  background-color: #1a4a5e;
+  background-color: #f2c453;
   color: #fff;
   height: 42px;
   padding: 10px 0 0;

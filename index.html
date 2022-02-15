@@ -15,8 +15,7 @@
 	<title>Gigabitsy</title>
 	<!-- Meta Description -->
 	<meta name="description" content="Hardware and software reseller. Cloud services architecture and implementation.">
-	<meta name="keywords"
-		content="hardware,software,cloud,azure">
+	<meta name="keywords" content="hardware,software,cloud,azure">
 	<meta name="author" content="Gigabitsy">
 	<!-- Mobile Specific Meta -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -29,7 +28,7 @@
 		================================================== -->
 	<!-- Fontawesome Icon font -->
 	<script src="https://kit.fontawesome.com/ec0c5f6401.js" crossorigin="anonymous"></script>
- 	<!-- Twitter Bootstrap css -->
+	<!-- Twitter Bootstrap css -->
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<!-- jquery.fancybox  -->
 	<link rel="stylesheet" href="css/jquery.fancybox.css">
@@ -117,8 +116,8 @@
 					<div class="carousel-caption">
 						<h2 data-wow-duration="700ms" data-wow-delay="500ms" class="wow bounceInDown animated">
 							Connecting<span> Everything</span>!</h2>
-						<h3 data-wow-duration="1000ms" class="wow slideInLeft animated"><span
-								class="color">/Software and Hardware </span> reseller.</h3>
+						<h3 data-wow-duration="1000ms" class="wow slideInLeft animated"><span class="color">/Software
+								and Hardware </span> reseller.</h3>
 						<p data-wow-duration="1000ms" class="wow slideInRight animated">Get the right tools for the job.
 						</p>
 
@@ -137,9 +136,9 @@
 					<div class="carousel-caption">
 						<h2 data-wow-duration="500ms" data-wow-delay="500ms" class="wow bounceInDown animated">
 							Connecting<span> Everything</span>!</h2>
-						<h3 data-wow-duration="500ms" class="wow slideInLeft animated"><span
-								class="color">/cloud</span> services.</h3>
-						<p data-wow-duration="500ms" class="wow slideInRight animated">Accelerate your cloud adoption. 
+						<h3 data-wow-duration="500ms" class="wow slideInLeft animated"><span class="color">/cloud</span>
+							services.</h3>
+						<p data-wow-duration="500ms" class="wow slideInRight animated">Accelerate your cloud adoption.
 						</p>
 
 						<ul class="social-links text-center">
@@ -199,8 +198,8 @@
 
 						<div class="service-desc">
 							<h3>Cloud Services</h3>
-							<p>We have a team of dedicated developers that can handle both infrastructure and 
-								application modernization. We are specialized in cloud hosting and scaling.  </p>
+							<p>We have a team of dedicated developers that can handle both infrastructure and
+								application modernization. We are specialized in cloud hosting and scaling. </p>
 						</div>
 					</div>
 				</div>
@@ -215,7 +214,7 @@
 
 						<div class="service-desc">
 							<h3>Project Management</h3>
-							<p>We provide project management know-how based  on modern agile methodologies 
+							<p>We provide project management know-how based on modern agile methodologies
 								ensuring on-time delivery with clear visibility and accountability.</p>
 						</div>
 					</div>
@@ -245,7 +244,8 @@
 				</div>
 
 				<div class="sec-sub-title text-center">
-					<p>Highly skilled team specialized in next-gen technologies, such as Networking, Cyber-Security, and Cloud.  </p>
+					<p>Highly skilled team specialized in next-gen technologies, such as Networking, Cyber-Security, and
+						Cloud. </p>
 				</div>
 
 				<div class="work-filter wow fadeInRight animated" data-wow-duration="500ms">
@@ -255,7 +255,8 @@
 						<li><a href="javascript:;" data-filter=".software" class="filter">Software</a></li>
 						<li><a href="javascript:;" data-filter=".cloud-services" class="filter">Cloud Services</a></li>
 						<li><a href="javascript:;" data-filter=".development" class="filter">Development</a></li>
-						<li><a href="javascript:;" data-filter=".project-management" class="filter">Project Management</a></li>
+						<li><a href="javascript:;" data-filter=".project-management" class="filter">Project
+								Management</a></li>
 					</ul>
 				</div>
 
@@ -332,7 +333,7 @@
 					<h4>CRM tooling and guidance.</h4>
 					<p>CRM</p>
 				</figcaption>
-			</figure> 
+			</figure>
 
 		</div>
 
@@ -471,13 +472,23 @@
 				<div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 wow fadeInLeft animated" data-wow-duration="500ms">
 					<div class="contact-address">
 						<h3>Gigabitsy</h3>
-						<h3 href="mailto:sales@gigabitsy.net">sales@gigabitsy.net</h3>
+						<a href="mailto:sales@gigabitsy.net">Send Email </a>
 						<p>Cyberules Lda</p>
 						<p>Portugal</p>
 						<p>(+351) 928 121 618</p>
 					</div>
 				</div>
 				<!-- end contact address -->
+
+				<form action="https://postmail.invotes.com/send" method="post" id="email_form">
+					<input type="text" name="subject" placeholder="Subject" />
+					<textarea name="text" placeholder="Message"></textarea>
+					<!-- replace value with your access token -->
+					<input type="hidden" name="access_token" value="hzx6pyou055j1m9ca2kljj0j" />
+					<input type="hidden" name="success_url" value=".?message=Email+Successfully+Sent%21&isError=0" />
+					<input type="hidden" name="error_url" value=".?message=Email+could+not+be+sent.&isError=1" />
+					<input id="submit_form" type="submit" value="Send" />
+				</form>
 
 				<!-- contact form -->
 				<!-- <div class="col-lg-8 col-md-8 col-sm-7 col-xs-12 wow fadeInDown animated" data-wow-duration="500ms"
@@ -543,7 +554,7 @@
 					</div>
 				</div>
 
-				<div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-duration="500ms"
+				<!-- <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-duration="500ms"
 					data-wow-delay="300ms">
 					<div class="footer-single">
 						<h6>Subscribe </h6>
@@ -553,7 +564,7 @@
 						</form>
 						<p>eusmod tempor incididunt ut labore et dolore magna aliqua. </p>
 					</div>
-				</div>
+				</div> -->
 
 				<div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-duration="500ms"
 					data-wow-delay="600ms">

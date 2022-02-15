@@ -472,7 +472,7 @@
 				<div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 wow fadeInLeft animated" data-wow-duration="500ms">
 					<div class="contact-address">
 						<h3>Gigabitsy</h3>
-						<a href="mailto:sales@gigabitsy.net">Send Email </a>
+						<h3>sales@gigabitsy.net</h3>
 						<p>Cyberules Lda</p>
 						<p>Portugal</p>
 						<p>(+351) 928 121 618</p>
@@ -480,22 +480,12 @@
 				</div>
 				<!-- end contact address -->
 
-				<form action="https://postmail.invotes.com/send" method="post" id="email_form">
-					<input type="text" name="subject" placeholder="Subject" />
-					<textarea name="text" placeholder="Message"></textarea>
-					<!-- replace value with your access token -->
-					<input type="hidden" name="access_token" value="hzx6pyou055j1m9ca2kljj0j" />
-					<input type="hidden" name="success_url" value=".?message=Email+Successfully+Sent%21&isError=0" />
-					<input type="hidden" name="error_url" value=".?message=Email+could+not+be+sent.&isError=1" />
-					<input id="submit_form" type="submit" value="Send" />
-				</form>
-
 				<!-- contact form -->
-				<!-- <div class="col-lg-8 col-md-8 col-sm-7 col-xs-12 wow fadeInDown animated" data-wow-duration="500ms"
+				<div class="col-lg-8 col-md-8 col-sm-7 col-xs-12 wow fadeInDown animated" data-wow-duration="500ms"
 					data-wow-delay="300ms">
 					<div class="contact-form">
 						<h3>Say hello!</h3>
-						<form action="mailto:sales@gigabitsy.net" id="contact-form">
+						<form action="https://postmail.invotes.com/send" method="post" id="contact-form">
 							<div class="input-group name-email">
 								<div class="input-field">
 									<input type="text" name="name" id="name" placeholder="Name" class="form-control">
@@ -512,9 +502,14 @@
 							<div class="input-group">
 								<input type="submit" id="form-submit" class="pull-right" value="Send message">
 							</div>
+							<input type="hidden" name="access_token" value="hzx6pyou055j1m9ca2kljj0j" />
+							<input type="hidden" name="success_url"
+								value=".?message=Email+Successfully+Sent%21&isError=0" />
+							<input type="hidden" name="error_url"
+								value=".?message=Email+could+not+be+sent.&isError=1" />
 						</form>
 					</div>
-				</div> -->
+				</div>
 				<!-- end contact form -->
 
 				<!-- footer social links -->
